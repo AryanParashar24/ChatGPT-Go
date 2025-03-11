@@ -1,0 +1,13 @@
+import math
+
+def calculate_rectangle_properties(length, width):
+    area = length * width
+    perimeter = 2 * (length + width)
+    return area, perimeter
+
+length = 5
+width = 3
+area, perimeter = calculate_rectangle_properties(length, width)
+
+print(f"Area: {area}")
+print(f"Perimeter: {perimeter}")
